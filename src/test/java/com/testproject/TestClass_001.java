@@ -6,6 +6,7 @@ public class TestClass_001 {
 
 		TestClass_001 myObj = new TestClass_001();
 		myObj.print();
+		myObj.add(10, 13);
 		
 		
 	}
@@ -13,6 +14,10 @@ public class TestClass_001 {
 	void print() {
 		
 		System.out.println("This is a print method calling");
+	}
+	
+	void add(int a, int b) {
+		System.out.println("Sum of a and b is :: " + (a+b));
 	}
 
 }
